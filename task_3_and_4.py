@@ -7,3 +7,6 @@ d2 = {}
 for i in range(len(some_list_1)):
     d2[some_list_1[i]] = some_list_2[i]
 print(d2)
+
+d3 = dict(zip(some_list_1, some_list_2))
+print(d3)
